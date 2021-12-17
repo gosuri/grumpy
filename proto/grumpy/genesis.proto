@@ -1,0 +1,11 @@
+syntax = "proto3";
+package gosuri.grumpy.grumpy;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/gosuri/grumpy/x/grumpy/types";
+
+// GenesisState defines the grumpy module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+}
